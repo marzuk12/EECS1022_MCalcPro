@@ -48,6 +48,7 @@ public class MCalcPro_Activity extends AppCompatActivity implements TextToSpeech
         double ay = event.values[1];
         double az = event.values[2];
         double a = Math.sqrt(ax * ax + ay * ay + az * az);
+
         if (a > 20)
         {
             ((EditText) findViewById(R.id.pBox)).setText("");
